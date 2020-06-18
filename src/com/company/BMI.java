@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Scanner;
-public class Operators {
+public class BMI {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -10,8 +10,8 @@ public class Operators {
         System.out.println("What is your height in inches?");
         double height = input.nextDouble();
 
-        System.out.println("Your BMI is: " +BMI);
         double BMI = weight/Math.pow(height,2) *703;
+        System.out.println("Your BMI is: " +BMI);
 
         System.out.println("What is your friends height in inches?");
         double height2 = input.nextDouble();
